@@ -114,14 +114,7 @@ const allDepartments = () => {
 //       choices: [viewAllDep.depName]
 //     },
 //   ]).then(function(answer){
-//   connection.query("SELECT employee.first_name, employee.last_name, employee.id, role.title FROM employee LEFT JOIN role ON employee.role_id = role.id LEFT JOIN department ON role.department_id",(err,res) => {
-//     if (err){
-//       throw err
-//     }else {
-//       console.table(res)
-//       start();
-//     }
-//   });
+//   connection.query(
 //   });
 // }
 
